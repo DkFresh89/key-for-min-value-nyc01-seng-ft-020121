@@ -9,7 +9,7 @@ name_hash.each do |key, value|
     lowkey = key
     lowval = value
   end 
-  if loval < value
+  if lowval < value
     lowval = value
     lowkey = key
   end 
