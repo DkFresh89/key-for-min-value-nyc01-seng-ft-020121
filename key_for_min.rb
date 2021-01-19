@@ -7,7 +7,7 @@ name_hash.each do |key, value|
   #value = original_value
   #compare = original_value
   compare = value
-  if value == {}
+  if compare == {}
      return nil 
    end 
   if compare <= value
@@ -15,7 +15,6 @@ name_hash.each do |key, value|
   end
   if compare + 1 >= value
     
-    return key
    end 
    
 end 
