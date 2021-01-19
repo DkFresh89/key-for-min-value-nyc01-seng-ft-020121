@@ -9,6 +9,6 @@ name_hash.each do |k, v|
     v = compare
     k
   end 
- # k
+  k
 end 
 end
