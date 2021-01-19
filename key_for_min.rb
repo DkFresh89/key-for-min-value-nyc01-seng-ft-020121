@@ -11,5 +11,8 @@ name_hash.each do |k, v|
   if compare >= v
      compare = v 
    end 
+   if v == {}
+     return nil 
+   end 
 end 
 end
