@@ -8,6 +8,7 @@ name_hash.each do |k, v|
   if compare < v
     v = compare
     
-  end k 
+  end 
+  k
 end 
 end
