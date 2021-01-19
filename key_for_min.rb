@@ -7,6 +7,7 @@ name_hash.each do |key, value|
   #value = original_value
   #compare = original_value
   compare = value
+  dump = compare
   if compare == {}
      return nil 
    end 
