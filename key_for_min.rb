@@ -5,11 +5,11 @@ def key_for_min_value(name_hash)
   
 name_hash.each do |k, v|
   compare = v
-  if compare >= v
-     end
-     compare = v 
   if compare <= v
   return k
   end
+  if compare >= v
+     end
+     compare = v 
 end 
 end
