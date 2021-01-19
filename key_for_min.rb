@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   
 name_hash.each do |key, value|
   value = original_value
-  compare = original_valuevalue
+  compare = original_value
   if value == {}
      return nil 
    end 
