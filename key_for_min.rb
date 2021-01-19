@@ -8,7 +8,7 @@ name_hash.each do |k, v|
   if compare <= v
     v = compare
   lowest = k
-  else 
+end
  return k
  end 
 end 
