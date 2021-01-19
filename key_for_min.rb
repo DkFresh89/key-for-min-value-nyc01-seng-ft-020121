@@ -11,6 +11,7 @@ name_hash.each do |k, v|
   if compare <= v
     v = compare
   lowest = k
+  return k 
 end
  return k
  
