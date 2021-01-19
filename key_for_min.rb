@@ -10,5 +10,6 @@ name_hash.each do |k, v|
   lowest = k
   else 
  return k
+ end 
 end 
 end
