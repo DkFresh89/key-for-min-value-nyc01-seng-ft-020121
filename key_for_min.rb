@@ -7,7 +7,7 @@ name_hash.each do |k, v|
   compare = v
   if compare <= v
     v = compare
-  print hash[k]  
+  
   end 
   
 end 
