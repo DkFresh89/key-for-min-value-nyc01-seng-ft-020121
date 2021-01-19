@@ -13,6 +13,6 @@ name_hash.each do |key, value|
     lowval = value
     lowkey = key
   end 
- 
+ lowkey
 end 
 end
