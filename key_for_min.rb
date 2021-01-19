@@ -14,5 +14,5 @@ name_hash.each do |key, value|
       lowkey = key 
     end
 end 
-
+lowkey
 end
