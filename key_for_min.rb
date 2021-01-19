@@ -12,7 +12,7 @@ name_hash.each do |k, v|
   return k
   end
   if compare >= v
-    compare = nil 
+    compare = 0
    end 
    
 end 
