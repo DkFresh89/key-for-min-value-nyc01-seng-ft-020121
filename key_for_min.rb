@@ -13,8 +13,9 @@ name_hash.each do |key, value|
   if compare <= value
   return key
   end
-  if compare =! value
+  if compare + 1 >= value
     
+    return key
    end 
    
 end 
