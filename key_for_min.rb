@@ -13,8 +13,8 @@ name_hash.each do |key, value|
   if compare <= value
   return key
   end
-  if compare >= value
-    compare = 0
+  if compare > value
+    
    end 
    
 end 
